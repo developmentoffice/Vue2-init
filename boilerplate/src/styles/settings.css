@@ -1,0 +1,23 @@
+$zIndex1: 2;
+$zIndex2: 4;
+$zIndex3: 8;
+$zIndex4: 16;
+$zIndex5: 32;
+$zIndex6: 64;
+$zIndex7: 128;
+$zIndex8: 256;
+$zIndex9: 512;
+$zIndex10: 1024;
+$zIndexTop: 4096;
+
+$mediaCheckpointMobile: 576px;
+$mediaCheckpointMobileLandscape: 767px;
+$mediaCheckpointTab: 1023px;
+$mediaCheckpointDesktop: 1200px;
+
+$transitionDelay: .2s;
+
+$font: sans-serif;
+$fontWeightNormal: 400;
+
+$textColor: #333333;
