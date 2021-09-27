@@ -25,3 +25,5 @@
 `src/store` - Vuex store with state, mutations, getters, actions
 
 `src/styles` - All styles of application
+
+`src/api.js` - Global request settings based on axios
