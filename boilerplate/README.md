@@ -7,6 +7,9 @@
 ## Build for production
 `npm run build`
 
+## Run tests
+`npm run test`
+
 ## Structure
 `src/main.js` - Entry point
 
@@ -27,3 +30,5 @@
 `src/styles` - All styles of application
 
 `src/api.js` - Global request settings based on axios
+
+`src/tests` - Test scripts

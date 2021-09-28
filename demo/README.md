@@ -10,3 +10,8 @@ Based on bulma CSS framework
 
 ## Build for production
 `npm run build`
+
+## Run tests
+`npm run test`
+
+![ToDo Application](preview/screen.jpg)
