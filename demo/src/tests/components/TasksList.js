@@ -98,19 +98,6 @@ describe('TasksList', () => {
         expect(wrapper.find('form').exists()).toBe(true)
         expect(wrapper.vm.editTask.name).toEqual(tasks[0].name)
     })
-    test('active task: click edit', async () => {
-        const wrapper = shallowMount(TasksList, {
-            localVue,
-            router,
-            propsData: {
-                tasks
-            }
-        })
-        const buttons = wrapper.findAll('.panel-block').at(0).findAll('button')
-        await buttons.at(0).trigger('click')
-        expect(wrapper.find('form').exists()).toBe(true)
-        expect(wrapper.vm.editTask.name).toEqual(tasks[0].name)
-    })
     test('save task with non empty input', async () => {
         const wrapper = shallowMount(TasksList, {
             localVue,
